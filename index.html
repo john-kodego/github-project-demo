@@ -16,5 +16,185 @@
     <div>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil hic esse, cum quis id sed facilis expedita veniam officia dolorem? Assumenda enim fugit aut minus sit eaque, quia rerum dicta!
     </div>
+    <div>
+        
+        <body bgcolor="powderblue">
+            <center>
+            <table border="5" color="blue">
+        
+            <form>
+                       <tr>
+                            <td colspan="2" align="center">
+                               <h2><u>Registration Form</u></h2>
+                            </td>
+                       </tr>
+                        <tr>
+                            <!-- INPUT TEXTFor first Name -->
+                            <td>
+                                <label for="firstName" style="padding-right:18px"><b>First Name:</b></label>
+                                <input type="text" 
+                                id="firstName"
+                                placeholder="First Name"
+                                >
+                            </td>
+        
+                        </tr>
+                        <!-- INPUT TEXT For middle name -->
+                        <tr>
+                            <td>
+                                 <label for="middleName"><b>Middle Name:</b>
+                                </label>
+                                <input type="text" 
+                                 id="middleName"
+                                 placeholder="Middle Name"
+                                >
+                            </td>
+                        </tr>
+                         <!-- INPUT TEXT For last name -->
+                         <tr>
+                            <td>
+                                 <label for="lastName" style="padding-right:18px"><b>Last Name:</b>
+                                </label>
+                                <input type="text" 
+                                 id="lastName"
+                                 placeholder="Last Name"
+                                >
+                            </td>
+                        </tr>
+        
+                        <!-- 6. b For Text area address-->
+                        <tr>
+                            <td>
+                                <label for="Address"><b>Address:</b></label>
+                                <br>
+                                <textarea
+                                    name="Address"
+                                    id="Address"
+                                    rows="5"
+                                    cols="50"
+                                > Type your address here...
+                            </textarea>
+                            </td>
+                        </tr>
+        
+                        <!--6. c radio button Gender -->
+                    <tr>
+                        <td>
+                            <p><b>Gender</b></p>
+                            <label for="Male"><strong><b>Male:</b></label>
+                            <input 
+                             type="radio"
+                              name="gender" 
+                              id="Male"
+                             value="Male">
+                            <label for="feMale"><b>Female:</b></label>
+                            <input 
+                             type="radio"
+                              name="gender" 
+                              id="feMale"
+                             value="FeMale">
+                             <br /><br />
+                        </td>
+                    </tr>         
+        
+        
+                <!-- 6. d Selection Box -->
+                <tr>
+                    <td>
+                            <label for="dropdown"><b>Career Path field:</b></label>
+                            <select 
+                            name="dropdown"
+                            id="dropdown">
+        
+                            <option
+                            selected
+                            disabled
+                            >
+                            Please select
+                    
+                        <option value="frontEnd">Front-End Developer</option>
+                        <option value="backEnd">Back-end Developer</option>
+                        <option value="fullStack">Full-stack Developer</option>
+                    </select>
+                    <br /><br /> <br />
+                    </td>
+                </tr>    
+            <!-- 6. e Checkbox -->
+            </td>
+                <tr>
+                    <td>
+                       <b> Technical Skills Field</b>
+                        <br /> 
+                        <label for="html">HTML</label>
+                <input
+                        type="checkbox"
+                        name="progLanguage"
+                        id="html"
+                        value="html"
+                />
+                
+                <label for="css">CSS</label>
+                <input
+                        type="checkbox"
+                        name="progLanguage"
+                        id="css"
+                        value="css"
+                />
+        
+                <label for="javaScript">Java Script</label>
+                <input
+                        type="checkbox"
+                        name="progLanguage"
+                        id="javaScript"
+                        value="javaScript"
+                />
+                <label for="mySql">MySQL</label>
+                <input
+                        type="checkbox"
+                        name="progLanguage"
+                        id="mySql"
+                        value="mySql"
+                />
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>
+                        <label for="php">PHP</label>
+                <input
+                        type="checkbox"
+                        name="progLanguage"
+                        id="php"
+                        value="php"
+                />
+                
+                <label for="laravel">Laravel</label>
+                <input
+                        type="checkbox"
+                        name="progLanguage"
+                        id="laravel"
+                        value="laravel"
+                />
+        
+                <label for="reactJs">React JS</label>
+                <input
+                        type="checkbox"
+                        name="progLanguage"
+                        id="reactJs"
+                        value="reactJs"
+                />
+                    </td>
+                </tr>
+        <!-- 6. f button -->
+        
+        <tr align="center">
+            <td colspan="2">
+                <input type="submit" value="Submit" style="width:100%">
+            </td>
+        </tr>
+            </table>
+            </form>
+
+    </div>
 </body>
 </html>
